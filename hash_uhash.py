@@ -4,7 +4,7 @@ def hash(s):
     for i in range(0,len(s)):
         h = (h * 37 + letters.index(s[i]))
     return h
-print hash("leepadg")
+print hash("lawnmower")
 
 def uhash(number):
     letters = "acdegilmnoprstuw"
@@ -20,4 +20,4 @@ def uhash(number):
         number=number/37
     return s
         
-print uhash(680131659347)
+print uhash(930846109532517)
